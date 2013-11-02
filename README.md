@@ -18,11 +18,11 @@ If  "sql qyery | file name"  is typed, the results are written in the file.
 - Schema file should be name *'schema'* and files containing tuples of each table should have .csv extension.
 - Compile the code using command:
 
-	g++ engine.cpp
+		g++ engine.cpp
 - Run the executable.
  
-	./a.out
+		./a.out
 - Then a prompt should appear. Now the user can start typing the Sql queries.
- 
-	<megatron_sql_engine> select * from table where attribute value = 'abc';
+ 	
+		<megatron_sql_engine> select * from table where attribute value = 'abc';
 
